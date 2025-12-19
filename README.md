@@ -14,8 +14,8 @@ Responsive product preview card built using HTML and CSS.
 
 ## Links
 
-**Live Site:** []  
-**GitHub Repository:** []
+**Live Site:** [https://product-preview-card-component-jcedev.netlify.app/]  
+**GitHub Repository:** [https://github.com/Jaumceb/product-preview-card-component-main]
 
 ## Author
 
