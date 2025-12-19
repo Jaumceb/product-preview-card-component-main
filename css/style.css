@@ -1,0 +1,96 @@
+@import url(base.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-cream);
+}
+.card {
+  display: flex;
+  max-width: 600px;
+  background: var(--color-white);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.card-image img {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+.card-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.category {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px;
+  color: var(--color-grey);
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-medium);
+}
+.card-content h1 {
+  font-family: var(--font-family-serif);
+  color: var(--color-black);
+  margin-top: 20px;
+  font-size: 34px;
+  line-height: 1;
+}
+.card-content p {
+  margin-top: 20px;
+  font-family: var(--font-family-sans);
+  color: var(--color-grey);
+  font-weight: var(--font-weight-medium);
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.current {
+  font-size: 32px;
+  color: var(--color-green-500);
+  font-family: var(--font-family-serif);
+}
+.old {
+  text-decoration: line-through;
+  color: var(--color-grey);
+}
+button {
+  background: var(--color-green-500);
+  color: var(--color-white);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-sans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  gap: 10px;    
+}
+button:hover {
+  background: var(--color-green-700);
+}
+.attribution {
+  font-size: 11px;
+  margin-top: 20px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

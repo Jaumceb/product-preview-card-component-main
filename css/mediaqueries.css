@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    max-width: 340px;
+  }
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  .card-content {
+    padding: 25px;
+  }
+  .card-content h1 {
+    font-size: 24px;
+  }
+  .current {
+    font-size: 28px;
+  }
+}
