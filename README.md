@@ -1,22 +1,22 @@
-# Social Links Profile
+# Product Preview Card Component
 
 ![Screenshot](./screenshot.png)
 
 ## About
 
-Responsive social links profile card built with HTML & CSS.
+Responsive product preview card built using HTML and CSS.
 
 ## Features
 
-- Hover and focus states for all links
-- Mobile and desktop responsive
-- Clean card layout with avatar, name, and bio
+- Responsive layout (mobile & desktop)
+- Hover states for interactive elements
+- Clean and modern card design
 
 ## Links
 
-**Live Preview:** []  
-**GitHub Repo:** []
+**Live Site:** []  
+**GitHub Repository:** []
 
 ## Author
 
-[Jcedev](https://)
+[JceDev](https://github.com/Jaumceb)
